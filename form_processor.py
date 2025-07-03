@@ -235,7 +235,7 @@ class FormProcessor:
             "to_date": "",
             
             # Section II - UIN
-            "uin": "B Y W A Z 2 0 2 3 0 0 6 3",
+            "uin": "",
             
             # Section III - Capital Structure
             "indian_capital_amount": "",
