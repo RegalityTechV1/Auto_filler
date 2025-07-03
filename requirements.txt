@@ -1,0 +1,41 @@
+# Core web framework
+streamlit>=1.28.0
+
+# PDF processing
+PyMuPDF>=1.23.0
+
+# Excel processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Google AI/Gemini
+google-generativeai>=0.3.0
+google-ai-generativelanguage>=0.4.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Machine Learning and NLP
+torch>=2.0.0
+transformers>=4.30.0
+
+# Hugging Face integration
+huggingface-hub>=0.16.0
+
+# Document processing
+docling-core>=1.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Standard library enhancements (usually included with Python but listed for completeness)
+pathlib2>=2.3.0
+
+# Optional: PDF generation and manipulation
+reportlab>=4.0.0
+
+# Optional: Additional Excel processing
+xlsxwriter>=3.1.0
+
+# Optional: Enhanced data manipulation
+numpy>=1.24.0
