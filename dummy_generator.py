@@ -79,7 +79,8 @@ class DummyDataGenerator:
         
         # UIN fields
         if "uin" in field_lower:
-            return self._generate_uin()
+            return 'B Y W A Z 2 0 2 3 0 0 6 3'
+            # return self._generate_uin()
         
         # Amount fields (financial figures)
         if any(amount_term in field_lower for amount_term in ["amount", "usd", "inr", "capital", "worth", "profit", "dividend", "repatriation", "repayment", "exports", "royalties", "fees", "fdi", "refund"]):
