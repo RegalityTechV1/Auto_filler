@@ -209,8 +209,8 @@ class DummyDataGenerator:
         numbers = year_part + sequence
         
         # Combine and format with spaces as shown in reference
-        # uin_chars = list(letters + numbers)
-        uin_chars=['B','Y','W','A','Z',2,0,2,3,0,0,6,3]
+        uin_chars = list(letters + numbers)
+        # uin_chars=['B','Y','W','A','Z',2,0,2,3,0,0,6,3]
         return ' '.join(uin_chars)
     
     def _generate_amount(self):
